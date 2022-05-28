@@ -1,0 +1,30 @@
+.list__item {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.list {
+	display: flex;
+	row-gap: 15px;
+	flex-direction: column;
+	padding-inline-end: 40px;
+}
+
+.list__item__col {
+	align-self: center;
+}
+
+.footer-btn {
+	text-align: center;
+}
+
+.form_todo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 15px;
+	padding: 15px;
+}
